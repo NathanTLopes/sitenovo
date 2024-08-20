@@ -52,6 +52,7 @@ header ul li a{
     color: #fff;
     cursor: pointer;
     transition: .2s;
+    margin-right: 10px;
 }
 .banner{
     height: 100vh;
