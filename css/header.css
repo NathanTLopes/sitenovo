@@ -26,7 +26,7 @@ header.rolagem{
     padding: 20px 4%;
 }
 header.rolagem a {
-     color: #FE775A;
+     color: #eb6517;
 }
 header img{
     width: 90px;
@@ -48,15 +48,14 @@ header ul li a{
     width: 120px;
     height: 40px;
     border: 0;
-    background-color: #FE775A;
+    background-color: #eb6517;
     color: #fff;
     cursor: pointer;
     transition: .2s;
-    margin-right: 10px;
 }
 .banner{
     height: 100vh;
-    background-image: url('../img/81529.jpg');
+    background-image: url('../img/nevado.jpg');
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +67,7 @@ header ul li a{
     font-size: 4em;
 }
 .banner h1 span{
-    color: #e1ff00;
+    color: #ff5e00;
 }
 .nav-list {
     list-style: none;
