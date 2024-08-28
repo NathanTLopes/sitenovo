@@ -53,6 +53,12 @@ header ul li a{
     cursor: pointer;
     transition: .2s;
 }
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .banner{
     height: 100vh;
     background-image: url('../img/nevado.jpg');
