@@ -1,1 +1,22 @@
-
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner{
+      height: 100vh;
+      background-image: url('../img/nevado.jpg');
+      background-position: 100% 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .banner h1{
+      font-size: 4em;
+  }
+  .banner h1 span{
+      color: #ff5e00;
+  }

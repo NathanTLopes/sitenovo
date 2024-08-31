@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>br
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site de turismo">
     <meta name="robots" content="noindex, nofollow">
     <meta name="author" content="Nathan Teixeira Lopes">
+    <link rel="stylesheet" href="css/contato1.css">
     <title>Viagem do Gurismo</title>
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <section class="contact-section" id="contact">
+        <div class="contact-description">
+            <h2>Entre em contato comigo</h2>
+            <p>Para quem querer dar a sua humilde opinião sobre
+                os meus sites, sobre esse portfolio ou
+                quer tirar uma dúvida...
+            </p>
+            <span>Vamos falar sobre!</span>
+        </div>
+        <div class="contact-form-wrapper">
+            <form action="https://formsubmit.co/texeiranathan20@gmail.com" method="POST">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email" id="email"><br>
+                <input type="text" id="text" placeholder="Assunto"><br> 
+                <textarea name="text" placeholder="Digite a sua mensagem..."></textarea><br>
+                <input type="hidden" name="_next" value="https://nathantlopes.github.io/Sites/Viagem%20do%20Gurismo/">
+                <input type="submit" value="Enviar a minha mensagem">
+            </form>
+        </div>
+    </section>
 </body>
 </html>
